@@ -4,13 +4,16 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 const Page = () => {
   return (
-    <div className="h-screen flex">
-      <div className="left-side flex-1 bg-red-600 bg-[url('/images/login/bg-snake-2.svg')]  bg-no-repeat flex flex-col justify-between text-gray-200 px-10 py-10">
+    <div className="h-screen flex flex-col md:flex-row">
+      <div className="left-side flex-1 bg-red-600 bg-[url('/images/login/bg-snake-2.svg')] bg-no-repeat flex flex-col justify-between text-gray-200 px-10 py-10">
         <div className="flex-1 flex items-center justify-center">
-          <div className="mx-auto max-w-4xl px-4">
-            <h1 className="text-5xl font-bold mb-4 typing-effect w-[65%]">
-              Hello Kahayag!👋
-            </h1>
+          <div className="inline-block mx-auto max-w-4xl px-4">
+            <div className="inline-block">
+              <h1 className="text-5xl font-bold mb-4 typing-effect inline-block">
+                Hello Kahayag!👋
+              </h1>
+            </div>
+
             <p className="text-sm mb-8 w-[75%]">
               Streamline your Kahayag restaurant management. Simplify tasks,
               track orders, and boost productivity with ease.
@@ -66,19 +69,19 @@ const Page = () => {
               </Button>
             </div>
             {/* <div className="mb-4">
-              <button
-                type="button"
-                className="bg-white text-gray-700 font-bold py-2 px-4 rounded w-full border border-gray-300 flex items-center justify-center"
-              >
-                <img src="google-icon.png" alt="Google" className="mr-2" />
-                Login with Google
-              </button>
-            </div>
-            <div className="text-center">
-              <a href="#" className="text-sm text-gray-600">
-                Forgot password? Click here
-              </a>
-            </div> */}
+            <button
+              type="button"
+              className="bg-white text-gray-700 font-bold py-2 px-4 rounded w-full border border-gray-300 flex items-center justify-center"
+            >
+              <img src="google-icon.png" alt="Google" className="mr-2" />
+              Login with Google
+            </button>
+          </div>
+          <div className="text-center">
+            <a href="#" className="text-sm text-gray-600">
+              Forgot password? Click here
+            </a>
+          </div> */}
           </form>
         </div>
       </div>
