@@ -5,7 +5,7 @@ import { Label } from "@/components/ui/label";
 const Page = () => {
   return (
     <div className="h-screen flex flex-col md:flex-row">
-      <div className="left-side flex-1 bg-red-600 bg-[url('/images/login/bg-snake-2.svg')] bg-no-repeat flex flex-col justify-between text-gray-200 px-10 py-10">
+      <div className="left-side flex-1 bg-red-600 bg-[url('/images/login/bg-snake-2.svg')] bg-cover bg-no-repeat flex flex-col justify-between text-gray-200 px-10 py-10">
         <div className="flex-1 flex items-center justify-center">
           <div className="inline-block mx-auto max-w-4xl px-4">
             <div className="inline-block">
