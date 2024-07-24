@@ -1,8 +1,10 @@
 import React from 'react'
-
+import Breadcrumb  from '@/components/breadcrumb/page'
 const page = () => {
   return (
-    <div>NavBar here</div>
+   <div>
+    <Breadcrumb />
+   </div>
   )
 }
 
