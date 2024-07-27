@@ -14,16 +14,12 @@ const BreadcrumbWithCustomSeparator = () => {
     <Breadcrumb>
       <BreadcrumbList>
         <BreadcrumbItem>
-          <BreadcrumbLink >Menu</BreadcrumbLink>
+          <BreadcrumbLink>Menu</BreadcrumbLink>
         </BreadcrumbItem>
         <BreadcrumbSeparator />
         <BreadcrumbItem>
           <BreadcrumbLink as={Link} href="/">Dashboard</BreadcrumbLink>
         </BreadcrumbItem>
-        {/* <BreadcrumbSeparator />
-        <BreadcrumbItem>
-          <BreadcrumbPage>Breadcrumb</BreadcrumbPage>
-        </BreadcrumbItem> */}
       </BreadcrumbList>
     </Breadcrumb>
   )
