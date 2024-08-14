@@ -24,7 +24,7 @@ const Sidebar = () => {
     <aside className="w-64 h-screen bg-background border-r">
       <ScrollArea className="h-full">
         <div className="space-y-4 py-4">
-          <h2 className="mb-2 px-4 text-xl font-bold">Kahayag Admin</h2>
+          <h2 className=" px-4 text-lg font-bold">Kahayag Admin</h2>
           <Separator />
           <div className="space-y-1 px-4">
             <h3 className="mb-2 text-sm font-medium">MENU</h3>
@@ -96,6 +96,16 @@ const Sidebar = () => {
               <MailIcon className="mr-2 h-4 w-4" />
               Email Template
             </Button>
+
+            <div>
+              <Button
+                variant="ghost"
+                className="w-full justify-start text-red-500 hover:text-red-700 hover:bg-red-100"
+              >
+                <Lock className="mr-2 h-4 w-4" />
+                Log Out
+              </Button>
+            </div>
           </div>
         </div>
       </ScrollArea>

@@ -4,7 +4,6 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
-import SideBar from "./sidebar/page"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,7 +27,6 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <div className="flex">
-            <SideBar />
             <main className="flex-1">{children}</main>
           </div>
         </ThemeProvider>
